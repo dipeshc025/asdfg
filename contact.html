@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>This is contact page</h1>
+    <fieldset>
+      <legend>your feedback</legend>
+      <form action="mailto:dipeshc025@gmail.com" method="post" enctype="text/plain">
+
+        <p>
+          <label for="mail">Email</label>
+          <input type="email" id="mail" name="mail" placeholder="@example.com" required>
+        </p>
+        <p>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" value="dipesh" placeholder="Username" maxlength="10">
+        </p>
+        <br>
+        <p>
+        <h3>Select your gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        </p>
+        <p>
+        <h3>Select your habits</h3>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" name="habits" value="dance" checked>
+        <label for="sing">Sing</label>
+        <input type="checkbox" name="habits" id="sing" value="sing">
+        </p>
+        <p>
+        <h3>Select your Country</h3>
+        <select name="Country" id="Country">
+          <option value="Nepal">Nepal</option>
+          <option value="India">India</option>
+          <option value="China">China</option>
+          <option value="Bhutan">Bhutan</option>
+        </select>
+        </p>
+        <p>
+        <h3>Select Fav coffee</h3>
+        <select name="coffee">
+          <optgroup label="Hard coffee">
+            <option value="expresso">Expresso</option>
+            <option value="mochiato">Machiato</option>
+          </optgroup>
+          <optgroup label="Light coffee">
+            <option value="cappuccino">Cappuccino</option>
+            <option value="amerocano">Amerocano</option>
+          </optgroup>
+        </select>
+        </p>
+        <p>
+          <label for="date">Select Date of joining</label>
+          <input type="date" id="date" name="date">
+        </p>
+        <p>
+          <label for="color">Select Fav color</label>
+          <input type="color" name="color" value="color">
+        </p>
+        <p>
+          <textarea placeholder="type message" name="msg" id="msg" cols="30" rows="40"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+
+</html>
