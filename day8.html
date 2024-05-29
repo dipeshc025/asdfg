@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .bx:hover {
+        background-color: red;
+      }
+
+      .button:hover {
+        background-color: blue;
+        color: whites;
+      }
+
+      p:hover::before {
+        content: 'Highlight';
+        color: red;
+        font-size: 2rem;
+      }
+
+      /* a:visited {
+        color: red;
+      } */
+      /* 
+      a:active {
+        color: green;
+      } */
+
+      a:link {
+        color: red;
+      }
+
+      /* li:first-child {
+        color: purple;
+      }
+
+      li:last-child {
+        color: red;
+      } */
+
+      li:nth-child(2n+1) {
+        color: green;
+      }
+
+      img[alt="game"] {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bx">
+      <h1>Box 1</h1>
+    </div>
+    <div class="sec">
+      <button class="button">Click me</button>
+    </div>
+    <p>Lorem ipsum <span class="imp">dolor sit amet </span>consectetur, adipisicing elit. At, ullam!</p>
+    <a href="https://www.youtube.com/" target="_blank">Home jee</a>
+    <ol>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+    </ol>
+
+    <img src="/assets/acd.JPG" alt="dipesh" height="200px" width="200px">
+  </body>
+
+</html>

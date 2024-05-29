@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      input[type='email']:focus {
+        color: red;
+        border: 2px solid yellow;
+        outline: 2px dotted green;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #bx1 {
+        height: 200px;
+        width: 200px;
+        background-color: green;
+
+        border: 2px solid black;
+        /* padding: 10px 20px 5px 9px; */
+        /* padding: 10px 20px; */
+        /* padding: 10px; */
+      }
+
+      #bx2 {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        border: 2px solid black;
+        margin-left: 200px;
+
+      }
+
+      #bx3 {
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        border: 2px solid black;
+        margin-left: 400px;
+      }
+
+      .box{
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: #FFDD40;
+        background-color: rgba(100, 200, 100, 0.5);
+
+      }
+
+      .box p{
+        text-transform: capitalize;
+        text-align: justify;
+        text-decoration: underline;
+        letter-spacing: 0.5px;
+        word-spacing: 5px;
+        line-height: 25px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      <input type="text" placeholder="Enter your Name here" name="name">
+      <br><br>
+      <input type="email" placeholder="Enter your Email here" name="name">
+    </p>
+
+    <br><br>
+
+    <div id="bx1">Green</div>
+    <div id="bx2">Red</div>
+    <div id="bx3">Blue</div>
+
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, placeat quidem distinctio sed voluptatem
+        quibusdam ratione. Delectus officiis sapiente eveniet!</p>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      padding: 10px;
+    }
+
+    .con{
+      height: 600px;
+      width: 800px;
+      border: 2px solid black;
+      display: grid;
+      grid-template-columns:repeat(4, 1fr) ;
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .bx1{
+      background-color: green;
+      grid-row: span 3;
+    }
+
+    .bx2{
+      background-color: green;
+      grid-column: span 2;
+    }
+
+    .bx3{
+      background-color: #EC3437;
+    }
+
+    .bx4{
+      background-color: #FBB22F;
+    }
+
+    .bx5{
+      background-color: #EC3437;
+    }
+
+    .bx6{
+      background-color: #6DBE4F;
+      grid-row: span 2;
+    }
+
+    .bx7{
+      background-color: #EC3437;
+
+    }
+
+    .bx8{
+      background-color: #6DBE4F ;
+    }
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="bx1 cbx">Box1</div>
+    <div class="bx2 cbx">Box2</div>
+    <div class="bx3 cbx">Box3</div>
+    <div class="bx4  cbx">Box4</div>
+    <div class="bx5 cbx">Box5</div>
+    <div class="bx6 cbx">Box6</div>
+    <div class="bx7 cbx">Box7</div>
+    <div class="bx8 cbx">Box8</div>
+  </div>
+</body>
+</html>

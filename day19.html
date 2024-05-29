@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .bx {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        transition: all 500ms cubic-bezier(0.39, 0.575, 0.565, 1) 2s;
+      }
+
+      .bx:hover {
+        width: 300px;
+        transform: rotate(360deg);
+      }
+
+      .bx1 {
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+      }
+
+      .bx1 img {
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+      }
+
+      .bx1 img:hover {
+        transform: scale(2);
+        transform: rotate(360deg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bx"></div>
+
+    <div class="bx1">
+      <img
+        src="https://images.unsplash.com/photo-1715806361591-396b58b9bd42?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+        alt="">
+    </div>
+
+  </body>
+
+</html>
